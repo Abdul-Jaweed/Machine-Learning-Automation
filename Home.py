@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 import io
 import os
-from sklearn.model_selection import train_test_split
+# from sklearn.model_selection import train_test_split
 
 
 # Create space betwwen two context
