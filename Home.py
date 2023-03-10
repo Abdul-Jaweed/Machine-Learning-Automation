@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 import io
 import os
+from sklearn.model_selection import train_test_split
 
 
 # Create space betwwen two context
@@ -54,13 +55,7 @@ def app():
             st.subheader(":blue[Statistical information of the Dataset]")
             st.write(df.describe())
             
-            
-            
-            
-            
-            
-            
-            
+         
             
         st.subheader("Phase Two")    
                    
@@ -86,17 +81,29 @@ def app():
 
 
 
-
-
-
-
-
-
-        # st.subheader("Phase Three")
+        st.subheader("Phase Three")
         
-        # data = st.radio('Click to view the Details of the Dataset : ',
-        #                 ('Head', 'Tail','Sample', 'Columns', 'Shape', 'Info', 'Descriptive Statistics'),
-        #                 horizontal=True)
+        data = st.multiselect("Select the Columns Name", (df.columns))
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
 
 
