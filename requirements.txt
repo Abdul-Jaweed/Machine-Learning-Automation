@@ -1,5 +1,5 @@
 streamlit
 numpy
 pandas
-sklearn
-lazypredictor
+# sklearn
+# lazypredictor
