@@ -81,9 +81,9 @@ def app():
 
 
 
-        st.subheader("Phase Three")
+        # st.subheader("Phase Three")
         
-        data = st.multiselect("Select the Columns Name", (df.columns))
+        # data = st.multiselect("Select the Columns Name", (df.columns))
         
         
         
